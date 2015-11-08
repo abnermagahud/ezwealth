@@ -1,0 +1,23 @@
+
+/*-----------------------------------------------------------------------------------*/
+/* Document
+/*-----------------------------------------------------------------------------------*/
+
+.form{
+	padding:20px;
+	background:#1e0000;
+	text-align:center;
+}
+
+.form h1{
+	color:#FFF;
+	text-align:center;
+	font-size:30px;
+}
+
+.form .form-heading{
+	font-size:40px;
+	font-weight:bold;
+	text-align:center;
+	color:#FFF;
+}

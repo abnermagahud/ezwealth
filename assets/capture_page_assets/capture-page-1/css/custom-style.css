@@ -1,0 +1,209 @@
+
+/*-----------------------------------------------------------------------------------*/
+/* Document
+/*-----------------------------------------------------------------------------------*/
+
+hr{
+	border:none;
+	border-top:1px solid #bbbbbb;
+	border-bottom:1px solid #bbbbbb;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/* Header
+/*-----------------------------------------------------------------------------------*/
+
+.header{
+	min-height:87px;
+	font-size:13px;
+	background:#4c9001;
+	color:#FFF;
+}
+
+.heading h1{
+	color:#000;
+	text-align:center;
+	font-family:bebasregular;
+	font-size:64px;
+	line-height:1;
+}
+
+.heading h2{
+	color:#000;		
+	text-align:center;
+	font-family:bebasregular;
+	font-size:50px;
+	line-height:1;
+}
+
+.heading-spacer{
+	height:70px;	
+}
+
+.button-spacer{
+	height:240px;
+}
+
+/***************/
+/* MAIN NAV
+/***************/
+
+.navigation{
+	float:right;
+	margin:0;
+	padding:0;
+}
+
+.navigation li{
+	display:inline;
+	float:left;
+}
+
+.navigation li a{
+	color:#FFF;
+	display:block;
+	/*background:#09C;*/
+	padding: 10px 10px 10px 10px;
+	font-family:bebasregular;
+	font-size:20px;
+}
+
+.nav-margin-top{
+	margin-top:22px;
+}
+
+.navigation li a:link{
+	
+}
+
+.navigation li a:hover{
+	color:#fff600;
+}
+
+.navigation li a.active{
+	color:#fff600;
+}
+
+/***************/
+/* MOBILE NAV
+/***************/
+
+#mobile-nav li a{
+	color:#FFF;
+	border-radius:0px;
+}
+
+#mobile-nav li a:link{
+	color:#FFF;
+	border-radius:0px;
+}
+
+#mobile-nav li a:hover{
+	color:#FFF;
+	background:#346103;
+}
+
+#mobile-nav li a:visited{
+	color:#FFF;
+	background:#346103;
+}
+
+.navbar .nav > .active > a{
+	color:#FFF;
+	background:#346103;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/* Header List
+/*-----------------------------------------------------------------------------------*/
+
+.heading-list{
+	
+}
+
+.heading-list li:first-child{
+	margin-top:0px;
+}
+
+
+.heading-list li{
+	margin-top:10px;
+	list-style:none;
+}
+
+.heading-list li a{
+	color:#FFF;
+	font-family:bebasregular;
+	font-size:30px;
+	padding:7px 10px 10px 10px;
+	background:url(../images/list-bg.png);
+}
+
+.heading-list-img{
+	padding:0;
+	margin:0;
+	margin-left:-10px;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/* Content
+/*-----------------------------------------------------------------------------------*/
+
+.content h1{
+	font-size:45px;
+	color:#4c9001;
+}
+
+.content h2{
+	font-size:26px;
+	color:#000;
+}
+
+.content p{
+	font-size:20px;
+	color:#898989;
+}
+
+.content strong{
+	color:#000;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/* How to order page
+/*-----------------------------------------------------------------------------------*/
+
+.products{
+	border:1px solid #bfbfbf;
+}
+
+.product-details{
+	padding-top:10px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:10px;
+}
+
+.product-details p{
+	font-size:14px;
+	font-family:arial, tahoma, verdana;
+	color:#898989;
+}
+
+.product-details p.price{
+	font-size:20px;
+	color:#4c9001;
+	text-align:left;
+	font-family:bebasregular;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/* Footer
+/*-----------------------------------------------------------------------------------*/
+
+.footer{
+	text-align:center;
+	color:#FFF;
+	font-family:bebasregular;
+	font-size:16px;
+}

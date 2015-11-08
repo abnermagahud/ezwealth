@@ -1,0 +1,75 @@
+
+/*-----------------------------------------------------------------------------------*/
+/* Document
+/*-----------------------------------------------------------------------------------*/
+body{ font-family:arial, verdana, tahoma; background:#ffe785;}
+
+.rowpush{
+	width:100%;
+	height:10px;
+}
+
+h1{
+	color:#FF0000;
+	text-align:center;
+	font-size:40px;
+	line-height:1;
+}
+
+h2{
+	color:#000;
+	text-align:center;
+	font-size:30px;
+	line-height:1;
+}
+
+
+.form{
+	padding:20px;
+	background:#0a5dad;
+	text-align:center;
+}
+
+.form p{
+	line-height:1;
+}
+
+
+.form .form-heading{
+	font-size:20px;
+	font-weight:bold;
+	text-align:center;
+	color:#FFF;
+}
+
+/*-----------------------------
+/* Form
+/*---------------------------*/
+
+input[type=text]{
+	padding:12px;
+	font-size:18px;
+	color:#000;
+	text-align:center;
+	width:100%;
+
+	border-radius:0px;
+	-moz-border-radius:0px;
+	-webkit-border-radius:0px;
+	-khtml-border-radius:0px;
+	box-shadow:none;
+	border:none;
+}
+
+input[type=button]{
+	border-radius:0px;
+	-moz-border-radius:0px;
+	-webkit-border-radius:0px;
+	-khtml-border-radius:0px;
+	box-shadow:none;
+	border:0px;
+	padding:10px;
+	background:#ababab;
+	color:#000;
+	font-size:25px;
+}
